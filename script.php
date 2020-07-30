@@ -1,37 +1,14 @@
 <?php
 
-  /**
-  * Plugin Name: WOHM
-  * Description: melodiamalodika
+  /*
+  Plugin Name: WOHM
+  Description: |♠️|seroktikamelokdika|♠️|, ||Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiar se stesso||🃏.
+  Author: Cyla00
+  Author URI: https://github.com/cyla00
   */
 
-  function lol(){
-    echo '<script>
-    const epilepsia = (() =>{
-      const btns = document.getElementById("bgs").getElementsByTagName("button");
-      let set = 0;
+  echo '<script>
 
-      const btn = btns;
-
-        btn.addEventListener("click", () =>{
-          const bgs = document.getElementById("bgs").getElementsByTagName("div");
-          if(set === 0){
-            btn.style.backgroundColor = "red";
-            set = 1;
-          }
-          else{
-            btn.style.backgroundColor = "black";
-            set = 0;
-          };
-        });
-    });
-
-    epilepsia();
-
-
-    </script>';
-  };
-
- add_action("wp_footer", "lol");
+  </script>';
 
  ?>
